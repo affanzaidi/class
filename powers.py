@@ -1,12 +1,10 @@
 num1 = int(input("Enter the base number:"))
 num2 = int(input("Enter the exponent number:"))
 
-def exponential(b , p):
-    temp = num1
-    for i in range(1,p+1):
-        product = num1* temp
-    print(product)
-
-
+def exponential(n, m):
+    result = 1
+    for m in range(m, 0, -1):
+        result *= n
+    print(result)
 
 exponential(num1, num2)
