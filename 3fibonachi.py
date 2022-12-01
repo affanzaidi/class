@@ -1,7 +1,3 @@
-# num = int(input("Enter the number:"))
-
-# def fibonachi(i):
-
 num=int(input('Enter a number: '))
 def fibonachi(n):
     a=0
