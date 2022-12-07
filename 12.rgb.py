@@ -1,10 +1,13 @@
-rgb = 0xffffff
+rgb = 0xfffeab
 
 
 def conversion(rgb):
     r = ((rgb >> 16)& 0xFF)
+    print(r)
     g = ((rgb >> 8)& 0xFF)
+    print(g)
     b = (rgb & 0xFF)
+    print(b)
 
     # r = r>>3
     # g = g>>3
@@ -20,4 +23,4 @@ def conversion(rgb):
     print(reduced_bit)
 
 
-conversion(rgb)
+conversion((rgb))
