@@ -1,4 +1,4 @@
-num = input(str("Enter a number to round off :"))
+num = input(("Enter a number to round off :"))
 
 def roundoff(value):
     last2 = value[-2:]
